@@ -1,0 +1,315 @@
+.logo-css {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.presale-h5 {
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.presale-h5-style {
+  background: linear-gradient(148deg, #651FFF 0%, #00E5FF 50%, #FF4081 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.unleashing-p {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.decoBanner {
+  background: linear-gradient(180deg, #000, rgba(0, 0, 0, .12));
+  position: relative;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.presale-h6 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.presale-h6-style {
+  background: linear-gradient(148deg, #651FFF 0%, #00E5FF 50%, #FF4081 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}
+
+.until-h6 {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.stage-span {
+  /* display: inline-flex; */
+  font-size: 20px;
+  font-weight: 700;
+  color: #fafafa;
+}
+
+.live-span {
+  color: hsla(0, 0%, 98%, .7);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.live-span-number {
+  color: hsla(0, 0%, 98%, .7);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.live-span-number-1 {
+  color: hsla(0, 0%, 98%, .7);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.join-btn {
+  background-color: #651FFF;
+  box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.2), 0px 2px 2px 0px rgba(50, 50, 50, 0.14), 0px 3px 1px -2px rgba(50, 50, 50, 0.12);
+  border-radius: 36px;
+  font-weight: 600;
+  padding: 8px 30px;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+}
+
+.join-btn-buy {
+  background-color: #651FFF;
+  box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.2), 0px 2px 2px 0px rgba(50, 50, 50, 0.14), 0px 3px 1px -2px rgba(50, 50, 50, 0.12);
+  border-radius: 10px;
+  font-weight: 500;
+  padding: 8px 30px;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+}
+.join-btn-cancel{
+  box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.2), 0px 2px 2px 0px rgba(50, 50, 50, 0.14), 0px 3px 1px -2px rgba(50, 50, 50, 0.12);
+  border-radius: 10px;
+  font-weight: 500;
+  padding: 8px 30px;
+  color: rgb(0, 0, 0);
+  border: 1px solid #651FFF;
+  font-size: 14px;
+  background-color: transparent;
+}
+/* progress bar */
+.progress-bar__wrapper {
+  position: relative;
+}
+
+.progress-bar__value {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+}
+
+progress {
+  width: 100%;
+  height: 25px;
+  border-radius: 6px;
+  background-color: #ddd;
+  transition: width 300ms ease;
+}
+
+progress[value]::-webkit-progress-bar {
+  width: 100%;
+  height: 25px;
+  border-radius: 6px;
+  background-color: #ddd;
+  transition: width 300ms ease;
+}
+
+progress[value]::-webkit-progress-value {
+  width: 0;
+  border-radius: 6px;
+  background: linear-gradient(148deg, #651FFF 0%, #00E5FF 50%, #FF4081 100%);
+  transition: width 300ms ease;
+}
+
+.signup-h5 {
+  margin-top: 50px;
+}
+
+.name-input {
+  background-color: transparent;
+  border: 1px solid rgb(204, 204, 204);
+  width: 95%;
+  padding: 10px 10px;
+  color: #fff;
+  outline: none;
+  border-radius: 2px;
+}
+
+.name-input-select {
+  background-color: transparent;
+  border: 1px solid rgb(239, 239, 239);
+  width: 95%;
+  padding: 10px 10px;
+  color: #fff;
+  outline: none;
+  border-radius: 2px;
+}
+
+.name-input-select option {
+  color: rgb(0, 0, 0);
+}
+
+.dollar-input {
+  background-color: transparent;
+  width: 85%;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding-left: 15px;
+}
+
+.dollar-label {
+  width: 15%;
+  border-right: 1px solid rgb(239, 239, 239);
+}
+
+.zero-md {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.zero-md-down {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.balance-span {
+  font-size: 14px;
+}
+
+.number-dashboard {
+  font-size: 13px;
+}
+
+.wallet-box {
+  color: #000;
+  padding: 4px 10px;
+  font-size: 13px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  background: #f5f6fc;
+  border: 1px solid #d2d9ee;
+  border-radius: 4px;
+  margin-bottom: 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wallet-box-order {
+  background: #f5f6fc;
+  border: 1px solid #d2d9ee;
+  padding: 4px 10px;
+}
+.select-style{
+  background: #f5f6fc;
+  border: 1px solid #d2d9ee;
+  padding: 10px 10px;
+  width: 100%;
+  outline: none;
+  font-size: 14px;
+}
+.description_text {
+  color: rgba(0, 0, 0, .6);
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.purchase-span {
+  font-size: 14px;
+}
+
+.Finished-span {
+  font-size: 12px;
+}
+
+.box-dashboard-down {
+  padding: 20px;
+  box-sizing: border-box;
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+  border-radius: 8px;
+  color: #000;
+  width: 100%;
+}
+.box-dashboard-down-profile{
+  padding: 20px;
+  box-sizing: border-box;
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+  border-radius: 8px;
+  color: #000;
+  width: 49%;
+}
+.label-referrals{
+  font-size: 14px;
+  color: #000;
+}
+.token-amount-span{
+  font-size: 14px;
+}
+.perfoile-btn{
+  background-color: transparent;
+  border: none;
+  max-width: 130px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.perfoile-btn-active{
+  background-color: transparent;
+  border-bottom: 2px solid #651FFF;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  max-width: 130px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  background: linear-gradient(148deg, #651FFF 0%, #00E5FF 50%, #FF4081 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn-edit{
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  background: #651FFF;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* text-decoration: line-through; */
+}
+.error-message{
+  text-align: left;
+  font-size: 14px;
+  padding-top: 10px;
+  color: rgb(239, 15, 15);
+}
