@@ -30,11 +30,11 @@ const SignIn = () => {
       }
       if (Object.keys(errors).length === 0) {
         setLoading(true)
-        console.log("Email:", formData.email);
         const response = await axios.post(
           `${process.env.REACT_APP_API_URL}/api/users/login`,
           formData
         );
+        console.log("response.data", response.data);
         if (response) {
           toast.success("User Login successfully.");
           localStorage.setItem(
